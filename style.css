@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pai {
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    position: relative;
+}
+
+.filho {
+    width: 150px;
+    height: 150px;
+    background-color: navy;
+    border-radius: 100%;
+    position: absolute;
+
+    left: 0px;
+}
